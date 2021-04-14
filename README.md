@@ -50,6 +50,10 @@ python manage.py migrate
 python manage.py createsuperuser --email='admin@email.com'
 ```
 
+## Accounts
+
+![img/diagram.png](img/diagram.png)
+
 ## Models
 
 ![img/models.png](img/models.png)
