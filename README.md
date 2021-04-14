@@ -50,6 +50,10 @@ python manage.py migrate
 python manage.py createsuperuser --email='admin@email.com'
 ```
 
+## Models
+
+![img/models.png](img/models.png)
+
 ## Links
 
 https://simpleisbetterthancomplex.com/tutorial/2016/07/22/how-to-extend-django-user-model.html#abstractbaseuser
