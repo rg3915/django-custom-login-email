@@ -15,7 +15,6 @@ from pathlib import Path
 from decouple import Csv, config
 from dj_database_url import parse as dburl
 
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -31,6 +30,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=[], cast=Csv())
 
+AUTH_USER_MODEL = 'accounts.User'
 
 # Application definition
 
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     # my apps
     'myproject.accounts',
     'myproject.core',
+    'myproject.crm',
 ]
 
 MIDDLEWARE = [

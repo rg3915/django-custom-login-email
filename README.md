@@ -23,6 +23,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python contrib/env_gen.py
 python manage.py migrate
+python manage.py createsuperuser --email='admin@email.com'
 ```
 
 ## Este projeto foi feito com:
@@ -46,4 +47,18 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python contrib/env_gen.py
 python manage.py migrate
+python manage.py createsuperuser --email='admin@email.com'
 ```
+
+## Links
+
+https://simpleisbetterthancomplex.com/tutorial/2016/07/22/how-to-extend-django-user-model.html#abstractbaseuser
+
+https://docs.djangoproject.com/en/2.2/topics/auth/customizing/#specifying-a-custom-user-model
+
+https://docs.djangoproject.com/en/3.2/topics/auth/customizing/#custom-users-admin-full-example
+
+https://github.com/django/django/blob/main/django/contrib/auth/models.py#L321
+
+https://github.com/django/django/blob/main/django/contrib/auth/base_user.py#L47
+
