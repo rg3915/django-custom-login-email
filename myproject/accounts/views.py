@@ -1,3 +1,3 @@
 from django.shortcuts import render
 
-# Create your views here.
+# Read https://github.com/rg3915/django-auth-tutorial
