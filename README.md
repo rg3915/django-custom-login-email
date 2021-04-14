@@ -52,7 +52,7 @@ python manage.py createsuperuser --email='admin@email.com'
 
 ## Accounts
 
-![img/diagram.png](img/diagram.png)
+![img/diagram0.png](img/diagram0.png)
 
 ## Models
 
