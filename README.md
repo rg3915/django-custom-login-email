@@ -2,6 +2,10 @@
 
 Django custom login email tutorial.
 
+<a href="https://youtu.be/dXdMD3LBUvA">
+    <img src="img/youtube.png">
+</a>
+
 ## This project was done with:
 
 * [Python 3.8.9](https://www.python.org/)
